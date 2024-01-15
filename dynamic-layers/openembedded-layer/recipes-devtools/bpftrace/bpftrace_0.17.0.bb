@@ -42,6 +42,7 @@ do_install_ptest() {
         cp -rf ${B}/tests/test* ${D}${PTEST_PATH}/tests
     fi
 }
+OVERRIDES .= ":clang-llvm"
 
 def llvm_major_version(d):
     pvsplit = d.getVar('LLVMVERSION').split('.')
