@@ -31,6 +31,7 @@ SRC_URI = "gitsm://github.com/iovisor/bcc;branch=master;protocol=https \
            file://0001-tests-cc-Use-c-14-standard.patch \
            file://run-ptest \
            file://ptest_wrapper.sh \
+           file://CVE-2024-2314.patch \
            "
 
 SRCREV = "9b5af1b0c140c8dbcbd9b821dccf2f7fceb6429c"
