@@ -20,6 +20,7 @@ SRC_URI = "git://github.com/iovisor/bpftrace;branch=master;protocol=https \
            file://0001-cmake-Raise-max-llvm-major-version-to-16.patch \
            file://0001-replace-python-with-python3-in-the-test.patch \
            file://run-ptest \
+           file://CVE-2024-2313.patch \
 "
 SRCREV = "70ee22cb14e2eedc5df17e53965824d7381f8e6f"
 
